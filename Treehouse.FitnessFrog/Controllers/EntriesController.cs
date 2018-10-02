@@ -116,8 +116,7 @@ namespace Treehouse.FitnessFrog.Controllers
             {
                 return HttpNotFound();
             }
-
-
+            
             return View(entry);
         }
 
